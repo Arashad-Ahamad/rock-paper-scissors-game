@@ -36,7 +36,7 @@ rockBtn.addEventListener('click', function () {
         if (handIcon.textContent === ComputerHandIcon.textContent) {
             result.textContent = 'Draw'
         } else if (ComputerHandIcon.textContent === scissorsIcon) {
-            result.textContent = 'Yoy Won!!'
+            result.textContent = 'You Won!!'
             userScore.textContent = +userScore.textContent + 1
         } else {
             result.textContent = 'Computer Won!!'
