@@ -62,7 +62,7 @@ paperBtn.addEventListener('click', function () {
         if (handIcon.textContent === ComputerHandIcon.textContent) {
             result.textContent = 'Draw'
         } else if (ComputerHandIcon.textContent === rockIcon) {
-            result.textContent = 'Yoy Won!!'
+            result.textContent = 'You Won!!'
             userScore.textContent = +userScore.textContent + 1
         } else {
             result.textContent = 'Computer Won!!'
@@ -87,7 +87,7 @@ scissorsBtn.addEventListener('click', function () {
         if (handIcon.textContent === ComputerHandIcon.textContent) {
             result.textContent = 'Draw'
         } else if (ComputerHandIcon.textContent === paperIcon) {
-            result.textContent = 'Yoy Won!!'
+            result.textContent = 'You Won!!'
             userScore.textContent = +userScore.textContent + 1
         } else {
             result.textContent = 'Computer Won!!'
